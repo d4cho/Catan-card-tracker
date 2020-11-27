@@ -1,0 +1,4 @@
+.ResourceCards {
+  display: flex;
+  flex-direction: row;
+}

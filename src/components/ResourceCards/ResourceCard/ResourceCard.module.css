@@ -1,0 +1,45 @@
+.ResourceCard {
+  border: 3px solid black;
+  background-color: lightpink;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ore {
+  background-color: grey;
+}
+
+.wheat {
+  background-color: yellow;
+}
+
+.sheep {
+  background-color: white;
+}
+
+.wood {
+  background-color: green;
+}
+
+.brick {
+  background-color: red;
+}
+
+.Button {
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.Button:disabled {
+  background-color: #c7c6c6;
+  cursor: not-allowed;
+  border: 1px solid #ccc;
+  color: #888888;
+}

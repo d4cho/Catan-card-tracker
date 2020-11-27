@@ -1,0 +1,53 @@
+.MyDevCards {
+  border: 1px solid black;
+  background-color: lightpink;
+  text-align: center;
+  width: 120px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: royalblue;
+  width: 100%;
+}
+
+.knight {
+  background-color: red;
+}
+
+.victorypoint {
+  background-color: fuchsia;
+}
+
+.monopoly {
+  background-color: green;
+}
+
+.roadbuilding {
+  background-color: green;
+}
+
+.yearofplenty {
+  background-color: green;
+}
+
+.Button {
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.Button:disabled {
+  background-color: #c7c6c6;
+  cursor: not-allowed;
+  border: 1px solid #ccc;
+  color: #888888;
+}
